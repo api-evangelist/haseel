@@ -1,8 +1,28 @@
 aid: haseel
 name: Haseel
-description: Haseel is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Haseel (حصيل) is a Riyadh-based technology startup, founded in 2018, that
+  delivers fresh fruits and vegetables to consumers across Saudi Arabia through
+  its iOS and Android mobile apps. The company sources high-quality produce and
+  fulfills each order from the nearest of its branches inside Riyadh, pairing a
+  curated selection with fast, reliable last-mile delivery. Haseel reports more
+  than 400,000 app downloads, three branches inside Riyadh, and over 1,000
+  orders per day, and is backed by 500 Global. This profile is maintained in the
+  API Evangelist network; Haseel is a consumer produce-delivery app and does not
+  currently publish a public developer API or OpenAPI surface.
 url: https://raw.githubusercontent.com/api-evangelist/haseel/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://haseelapp.com/wp-content/uploads/2025/12/cropped-main-logo-AR-02-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Grocery
+- Food Delivery
+- E-Commerce
+- Mobile App
+- Produce
+- Agriculture Technology
+- Last-Mile Delivery
+- Saudi Arabia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/haseel-domain-security.yml
 - type: Website
   url: https://haseelapp.com
+- type: About
+  url: https://haseelapp.com/about-us/
+- type: Support
+  url: https://haseelapp.com/contact/
+- type: AppStore
+  url: https://apps.apple.com/us/app/%D8%AD%D8%B5%D9%8A%D9%84/id1338447528
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=ibtikar.haseel.user
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
