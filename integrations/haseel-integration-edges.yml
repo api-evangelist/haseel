@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/haseel/integrations
+- https://n8n.io/integrations/haseel/
+- https://composio.dev/toolkits/haseel
+- https://monid.ai/tools/haseel
+checked:
+- https://composio.dev/toolkits/haseel
+- https://monid.ai/tools/haseel
+- https://n8n.io/integrations/haseel/
+- https://zapier.com/apps/haseel/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
